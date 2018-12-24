@@ -54,7 +54,8 @@ html {
 
 body {
 	margin: 0;
-	font-family: 'open sans';
+ 	font-family: 'open sans';
+	/*font-family: 'Roboto', sans-serif;*/
 	font-size: 14px;
 }
 
@@ -269,7 +270,8 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: 'open sans';
+	/* 	font-family: 'open sans'; */
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -282,7 +284,9 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-family: 'Droid Serif';
+	/*font-family: 'Droid Serif';*/
+	font-family: 'Roboto', sans-serif;
+
 }
 
 p {
@@ -1925,7 +1929,7 @@ MAIN NAVIGATION
 }
 .menu-wrap ul li {
 	display: inline-block;
-	font-family: open sans;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 400;
@@ -2641,7 +2645,7 @@ h3.product-title:hover {
 .yith-wcwl-add-to-wishlist .button:after, .button.yith-wcqv-button:after {
 	display: none;
 }
-.button.yith-wcqv-button::before, , .woocommerce-page.woocommerce .products li .whislist-quickview .button.yith-wcqv-button:before {
+.button.yith-wcqv-button::before, .woocommerce-page.woocommerce .products li .whislist-quickview .button.yith-wcqv-button:before {
 	content: "\f002";
 	font-family: fontawesome;
 	font-size: 13px;
@@ -4296,7 +4300,7 @@ BLOG PAGE
 	margin-top: 5px;
 }
 .archive article .entry-header .entry-meta a:hover, 
-, .single .page-header .entry-meta a:hover {
+.single .page-header .entry-meta a:hover {
 	color: #f6a225;
 }
 .archive article .content-thumbnail:before, 
