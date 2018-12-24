@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.0.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-11 04:28:43+0000\n"
+"PO-Revision-Date: 2018-12-18 01:45:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,6 +25,14 @@ msgstr "0"
 msgctxt "start of week"
 msgid "1"
 msgstr "1"
+
+#: wp-admin/post.php:44
+msgid "A post type mismatch has been detected."
+msgstr "Post type không hợp lệ được tìm thấy."
+
+#: wp-admin/includes/class-wp-screen.php:282 wp-admin/post.php:20
+msgid "A post ID mismatch has been detected."
+msgstr "Post ID không hợp lệ được tìm thấy."
 
 #. translators: %s: An edit post link to use the classic editor.
 #: wp-admin/includes/template.php:1049
@@ -89,135 +97,135 @@ msgctxt "CSS Font Family for Editor Font"
 msgid "Noto Serif"
 msgstr "Helvetica, Helvetica Neue, Arial"
 
-#: wp-admin/about.php:426
+#: wp-admin/about.php:458
 msgid "Note to users of assistive technology: if you experience usability issues with the block editor, we recommend you continue to use the Classic Editor."
 msgstr "Lưu ý dành cho người dùng: nếu bạn gặp vấn đề trong quá trình soạn thảo block, chúng tôi đề nghị bạn tiếp tục sử dụng trình soạn thảo ban đầu."
 
-#: wp-admin/about.php:425
+#: wp-admin/about.php:457
 msgid "The Classic Editor plugin restores the previous WordPress editor and the Edit Post screen. It lets you keep using plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor. To install, visit your plugins page and click the &#8220;Install Now&#8221; button next to &#8220;Classic Editor&#8221;. After the plugin finishes installing, click &#8220;Activate&#8221;. That’s it!"
 msgstr "Plugin Class Editor khôi phục trình soạn thảo ban đầu của WordPress cùng giao diện Sửa bài viết. Nó cho phép bạn giữ lại các plugin mở rộng nó, thêm meta box kiểu cũ hoặc không phụ thuộc vào trình soạn thảo cũ. Để cài đặt, ghé thăm trang plugin và nhấp vào nút &#8220;Cài đặt&#8221; bên cạnh &#8220;Classic Editor&#8221;. Sau khi cài đặt xong, nhấp vào nút &#8220;Kích hoạt&#8221;. Và như vậy sẽ cài xong!"
 
-#: wp-admin/about.php:424
+#: wp-admin/about.php:456
 msgid "Prefer to stick with the familiar Classic Editor? No problem! Support for the Classic Editor plugin will remain in WordPress through 2021."
 msgstr "Bạn vẫn muốn sử dụng trình soạn thảo cơ bản như trước đây? Không sao cả! Trình soạn thảo này vẫn được hỗ trợ như một plugin trong WordPress tới năm 2021."
 
-#: wp-admin/about.php:409
+#: wp-admin/about.php:441
 msgid "Keep it Classic"
 msgstr "Tiếp tục sử dụng Trình soạn thảo cơ bản"
 
-#: wp-admin/about.php:400
+#: wp-admin/about.php:432
 msgid "Learn how to get started"
 msgstr "Học cách bắt đầu sử dụng"
 
-#: wp-admin/about.php:394
+#: wp-admin/about.php:426
 msgid "The new block paradigm opens up a path of exploration and imagination when it comes to solving user needs. With the unified block insertion flow, it&#8217;s easier for your clients and customers to find and use blocks for all types of content. Developers can focus on executing their vision and providing rich editing experiences, rather than fussing with difficult APIs."
 msgstr "Mô hình block mới mở ra con đường khám phá và tăng trí tưởng tượng khi giải quyết nhu cầu của người dùng. Với tư duy block thống nhất, nó giúp người dùng và khách hàng dễ dàng tìm và sử dụng block cho tất cả các kiểu nội dung. Lập trình viên có thể tập trung vào thực thi sứ mệnh của mình và cung cấp các nội dung phong phú, hơn là khó khăn khi làm việc với API."
 
-#: wp-admin/about.php:386
+#: wp-admin/about.php:418
 msgid "Take advantage of a wide collection of APIs and interface components to easily create blocks with intuitive controls for your clients. Utilizing these components not only speeds up development work but also provide a more consistent, usable, and accessible interface to all users."
 msgstr "Tận dụng bộ sưu tập API và các thành phần giao diện rộng rãi để dễ dàng tạo các block với các công cụ điều khiển trực quan cho khách hàng của bạn. Việc sử dụng các thành phần này không chỉ tăng tốc công việc phát triển mà còn cung cấp giao diện phù hợp hơn, có thể sử dụng và dễ truy cập hơn cho tất cả người dùng."
 
-#: wp-admin/about.php:385
+#: wp-admin/about.php:417
 msgid "Compose"
 msgstr "Soạn thảo"
 
-#: wp-admin/about.php:378
+#: wp-admin/about.php:410
 msgid "Blocks provide a comfortable way for users to change content directly, while also ensuring the content structure cannot be easily disturbed by accidental code edits. This allows the developer to control the output, building polished and semantic markup that is preserved through edits and not easily broken."
 msgstr "Block mang lại một cách dễ dàng cho người dùng thay đổi nội dung chủ động, trong khi đảm bảo cấu trúc nội dung không thể bị ảnh hưởng bởi các lỗi sửa code. Nó cho phép lập trình viên quản lý đầu ra, xây dựng cấu trúc chặt chẽ và không dễ bị hỏng."
 
-#: wp-admin/about.php:377
+#: wp-admin/about.php:409
 msgid "Protect"
 msgstr "Bảo vệ"
 
-#: wp-admin/about.php:358
+#: wp-admin/about.php:390
 msgid "Give Twenty Nineteen a try"
 msgstr "Thử cài đặt giao diện 2019"
 
-#: wp-admin/about.php:351
+#: wp-admin/about.php:383
 msgid "Twenty Nineteen is designed to work for a wide variety of use cases. Whether you’re running a photo blog, launching a new business, or supporting a non-profit, Twenty Nineteen is flexible enough to fit your needs."
 msgstr "Giao diện 2019 được thiết kế để làm việc cho nhiều tình huống. Bất kể bạn đang chạy blog ảnh, tạo một website kinh doanh hay hỗ trợ một tổ chức phi chính phủ, giao diện này đều đáp ứng và phù hợp nhu cầu của bạn."
 
-#: wp-admin/about.php:350
+#: wp-admin/about.php:382
 msgid "Versatile design for all sites"
 msgstr "Thiết kế linh hoạt cho tất cả các kiểu website"
 
-#: wp-admin/about.php:346
+#: wp-admin/about.php:378
 msgid "Featuring ample whitespace, and modern sans-serif headlines paired with classic serif body text, Twenty Nineteen is built to be beautiful on the go. It uses system fonts to increase loading speed. No more long waits on slow networks!"
 msgstr "Với không gian rộng rãi và tiêu đề kiểu nét thanh hiện đại kết hợp với văn bản font chữ cổ điển, Giao diện 2019 được xây dựng để tôn vinh cái đẹp. Nó sử dụng font chữ hệ thống để tăng tốc độ tải web. Không phải chờ đợi lâu nếu mạng chậm!"
 
-#: wp-admin/about.php:345
+#: wp-admin/about.php:377
 msgid "Simple, type-driven layout"
 msgstr "Bố cục đơn giản và có định hướng"
 
-#: wp-admin/about.php:338
+#: wp-admin/about.php:370
 msgid "Twenty Nineteen features custom styles for the blocks available by default in 5.0. It makes extensive use of editor styles throughout the theme. That way, what you create in your content editor is what you see on the front of your site."
 msgstr "Giao diện 2019 có các kiểu dáng tùy biến cho block mặc định có sẵn trong 5.0. Nó sử dụng các nội dung từ trình soạn thảo mới trong toàn bộ giao diện. Bằng cách này, những gì bạn tạo trong trình soạn thảo cũng chính là những gì bạn thấy trên website."
 
-#: wp-admin/about.php:337
+#: wp-admin/about.php:369
 msgid "Designed for the block editor"
 msgstr "Được thiết kế cho trình soạn thảo block"
 
-#: wp-admin/about.php:327
+#: wp-admin/about.php:359
 msgid "Introducing Twenty Nineteen, a new default theme that shows off the power of the new editor."
 msgstr "Ra mắt 2019, giao diện mặc định trình diễn sức mạnh của trình soạn thảo mới."
 
-#: wp-admin/about.php:321
+#: wp-admin/about.php:353
 msgid "The front-end of Twenty Nineteen on the left, and how it looks in the editor on the right."
 msgstr "Giao diện bên ngoài của 2019 ở bên trái, và bạn nhìn thấy trình soạn thảo ở bên phải."
 
-#: wp-admin/about.php:308
+#: wp-admin/about.php:340
 msgid "A Stunning New Default Theme"
 msgstr "Giao diện mặc định mới"
 
-#: wp-admin/about.php:298
+#: wp-admin/about.php:330
 msgid "Build your first post"
 msgstr "Soạn bài viết đầu tiên"
 
-#: wp-admin/about.php:286
+#: wp-admin/about.php:318
 msgid "This new editing experience provides a more consistent treatment of design as well as content. If you&#8217;re building client sites, you can create reusable blocks. This lets your clients add new content anytime, while still maintaining a consistent look and feel."
 msgstr "Trải nghiệm mới trong soạn thảo nào cung cấp một khái niệm nhất quán về thiết kế trong nội dung. Nếu bạn làm website cho khách hàng, bạn có thể tạo những block tái sử dụng, nhằm giúp khách hàng của bạn thêm nội dung bất kì lúc nào, trong khi vẫn đảm bảo cái nhìn tổng thể."
 
-#: wp-admin/about.php:285
+#: wp-admin/about.php:317
 msgid "Freedom to Build, Freedom to Write"
 msgstr "Thoải mái xây dựng và biên tập nội dung"
 
-#: wp-admin/about.php:132
+#: wp-admin/about.php:164
 msgid "We have tons of blocks available by default, and more get added by the community every day. Here are a few of the blocks to help you get started:"
 msgstr "Chúng tôi có nhiều block có sẵn, và sẽ có thêm nhiều hơn nữa được thêm vào bởi cộng đồng mỗi ngày. Đây là một vài block để bạn bắt đầu:"
 
-#: wp-admin/about.php:130 wp-admin/about.php:290
+#: wp-admin/about.php:162 wp-admin/about.php:322
 msgid "Your browser doesn&#8217;t support HTML5 video. Here is a %1$slink to the video%2$s instead."
 msgstr "Trình duyệt của bạn không hỗ trợ HTML5 Video. Đây là %1$sliên kết tới video%2$s."
 
-#: wp-admin/about.php:126
+#: wp-admin/about.php:158
 msgid "The new block-based editor won&#8217;t change the way any of your content looks to your visitors. What it will do is let you insert any type of multimedia in a snap and rearrange to your heart&#8217;s content. Each piece of content will be in its own block; a distinct wrapper for easy maneuvering. If you&#8217;re more of an HTML and CSS sort of person, then the blocks won&#8217;t stand in your way. WordPress is here to simplify the process, not the outcome."
 msgstr "Trình soạn thảo block mới sẽ không thay đổi cách nội dung bạn hiển thị tới người dùng. Những gì nó sẽ làm là cho phép bạn chèn bất kỳ loại đa phương tiện nào trong tích tắc và sắp xếp lại nội dung chính của bạn. Mỗi phần nội dung sẽ nằm trong block riêng của nó; được bao bọc riêng biệt để dễ dàng di chuyển. Nếu bạn yêu thích và muốn sử dụng HTML và CSS, các block sẽ tha hồ tùy biến theo cách của bạn. WordPress ở đây để đơn giản hóa các bước, không phải là gây khó dễ cho bạn."
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:157
 msgid "Building with Blocks"
 msgstr "Tùy biến với Block"
 
-#: wp-admin/about.php:118
+#: wp-admin/about.php:150
 msgid "Trust that your editor looks like your website."
 msgstr "Hãy tin rằng trình soạn thảo block giống như vẻ ngoài website của bạn."
 
-#: wp-admin/about.php:109
+#: wp-admin/about.php:141
 msgid "Work across all screen sizes and devices."
 msgstr "Hỗ trợ tất cả khung màn hình và thiết bị."
 
-#: wp-admin/about.php:100
+#: wp-admin/about.php:132
 msgid "Create modern, multimedia-heavy layouts."
 msgstr "Tạo bố cục hiện đại, phong phú với nhiều media."
 
-#: wp-admin/about.php:91
+#: wp-admin/about.php:123
 msgid "Do more with fewer plugins."
 msgstr "Làm nhiều hơn với ít plugin hơn."
 
-#: wp-admin/about.php:80
+#: wp-admin/about.php:112
 msgid "You&#8217;ve successfully upgraded to WordPress 5.0! We’ve made some big changes to the editor. Our new block-based editor is the first step toward an exciting new future with a streamlined editing experience across your site. You’ll have more flexibility with how content is displayed, whether you are building your first site, revamping your blog, or write code for a living."
 msgstr "Bạn đã nâng cấp thành công lên phiên bản WordPress 5.0. Có rất nhiều thay đổi trong trình soạn thảo nội dung. Đây là bước đầu tiên tiến gần hơn tới những trải nghiệm mới mẻ trong tương lại dành cho website của bạn. Bạn sẽ thấy linh động hơn khi xây dựng nội dung, bất kể bạn đang làm website từ đầu, nâng cấp blog hay sống bằng nghề lập trình."
 
-#: wp-admin/about.php:65
+#: wp-admin/about.php:97
 msgid "Say Hello to the New Editor"
 msgstr "Xin chào Trình soạn thảo mới"
 
@@ -258,10 +266,6 @@ msgstr "Chào bạn! Tôi là một người bán hàng, và đây là website c
 #: wp-admin/includes/upgrade.php:232
 msgid "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:"
 msgstr "Đây là trang mẫu. Nó khác với bài viết bởi vì nó thường cố định và hiển thị trong menu của bạn. Nhiều người bắt đầu với trang Giới thiệu nơi bạn chia sẻ thông tin cho những ai ghé thăm. Nó có thể bắt đầu như thế này:"
-
-#: wp-admin/includes/post.php:2205
-msgid "This action is still supported in the classic editor, but is deprecated in the block editor."
-msgstr "Thao tác này vẫn được hỗ trợ trong trình soạn thảo cũ, nhưng đã ngừng phát triển trong trình soạn thảo block mới."
 
 #: wp-admin/includes/class-wp-posts-list-table.php:1309
 msgid "Export as JSON"
@@ -326,7 +330,7 @@ msgstr "Thông tin"
 msgid "Privacy Policy"
 msgstr "Chính sách bảo mật"
 
-#: wp-admin/about.php:429
+#: wp-admin/about.php:461
 msgid "Install the Classic Editor"
 msgstr "Cài đặt Classic Editor"
 
@@ -804,7 +808,7 @@ msgid "Report generated for"
 msgstr "Báo cáo đã được tạo cho"
 
 #. translators: %s: array index
-#: wp-admin/includes/ajax-actions.php:4117
+#: wp-admin/includes/ajax-actions.php:4121
 msgid "Exporter array at index %s does not include a friendly name."
 msgstr "Mảng xuất ở chỉ số %s có tên lạ"
 
@@ -816,76 +820,76 @@ msgstr "Rất tiếc, bạn không được phép xóa dữ liệu trên trang w
 msgid "Sorry, you are not allowed to export personal data on this site."
 msgstr "Xin lỗi, bạn không được phép xuất dữ liệu cá nhân trên trang này."
 
-#: wp-admin/includes/ajax-actions.php:4278
+#: wp-admin/includes/ajax-actions.php:4282
 msgid "Eraser index is out of range."
 msgstr "Chỉ số xóa nằm ngoài phạm vi."
 
-#: wp-admin/includes/ajax-actions.php:4237
+#: wp-admin/includes/ajax-actions.php:4241
 msgid "Missing eraser index."
 msgstr "Lỗi xóa chỉ mục."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4162
+#: wp-admin/includes/ajax-actions.php:4166
 msgid "Expected done (boolean) in response array from exporter: %s."
 msgstr "Dự kiến hoàn tất (boolean) trong mảng trả về từ trình xuất dữ liệu: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4156
+#: wp-admin/includes/ajax-actions.php:4160
 msgid "Expected data array in response array from exporter: %s."
 msgstr "Mảng dữ liệu dự kiến trong mảng trả về từ trình xuất dữ liệu: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4150
+#: wp-admin/includes/ajax-actions.php:4154
 msgid "Expected data in response array from exporter: %s."
 msgstr "Dữ liệu dự kiến trong mảng trả về từ trình xuất dữ liệu: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4144
+#: wp-admin/includes/ajax-actions.php:4148
 msgid "Expected response as an array from exporter: %s."
 msgstr "Phản hồi dự kiến ở dạng mảng từ trình xuất dữ liệu: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4129
+#: wp-admin/includes/ajax-actions.php:4133
 msgid "Exporter callback is not a valid callback: %s."
 msgstr "Callback trình xuất dữ liệu không phải là một callback hợp lệ: %s."
 
 #. translators: %s: exporter friendly name
-#: wp-admin/includes/ajax-actions.php:4123
+#: wp-admin/includes/ajax-actions.php:4127
 msgid "Exporter does not include a callback: %s."
 msgstr "Trình xuất dữ liệu không bao gồm callback: %s."
 
 #. translators: %s: array index
-#: wp-admin/includes/ajax-actions.php:4111
+#: wp-admin/includes/ajax-actions.php:4115
 msgid "Expected an array describing the exporter at index %s."
 msgstr "Mảng mô tả trình xuất dữ liệu dự kiến tại chỉ số %s."
 
-#: wp-admin/includes/ajax-actions.php:4097
+#: wp-admin/includes/ajax-actions.php:4101
 msgid "Exporter index out of range."
 msgstr "Chỉ số trình xuất dữ liệu nằm ngoài phạm vi."
 
-#: wp-admin/includes/ajax-actions.php:4093
+#: wp-admin/includes/ajax-actions.php:4097
 msgid "Exporter index cannot be negative."
 msgstr "Chỉ số xuất dữ liệu không được âm"
 
-#: wp-admin/includes/ajax-actions.php:4087
+#: wp-admin/includes/ajax-actions.php:4091
 msgid "An exporter has improperly used the registration filter."
 msgstr "Trình xuất dữ liệu sử dụng bộ lọc đăng ký không phù hợp."
 
-#: wp-admin/includes/ajax-actions.php:4059
-#: wp-admin/includes/ajax-actions.php:4243
+#: wp-admin/includes/ajax-actions.php:4063
+#: wp-admin/includes/ajax-actions.php:4247
 msgid "Missing page index."
 msgstr "Thiếu chỉ mục trang."
 
-#: wp-admin/includes/ajax-actions.php:4054
+#: wp-admin/includes/ajax-actions.php:4058
 msgid "Missing exporter index."
 msgstr "Thiếu chỉ mục xuất."
 
-#: wp-admin/includes/ajax-actions.php:4045
+#: wp-admin/includes/ajax-actions.php:4049
 msgid "Invalid request type."
 msgstr "Kiểu yêu cầu không hợp lệ."
 
-#: wp-admin/includes/ajax-actions.php:4027
-#: wp-admin/includes/ajax-actions.php:4207
+#: wp-admin/includes/ajax-actions.php:4031
+#: wp-admin/includes/ajax-actions.php:4211
 msgid "Missing request ID."
 msgstr "Thiếu ID yêu cầu."
 
@@ -1056,7 +1060,7 @@ msgstr "ID yêu cầu không hợp lệ khi tạo tệp xuất."
 msgid "Unable to generate export file. ZipArchive not available."
 msgstr "Không thể tạo tệp xuất. ZipArchive không khả dụng."
 
-#: wp-admin/includes/ajax-actions.php:4050
+#: wp-admin/includes/ajax-actions.php:4054
 msgid "A valid email address must be given."
 msgstr "Phải cung cấp địa chỉ email hợp lệ."
 
@@ -1146,76 +1150,76 @@ msgstr "Confirmation request sent again successfully."
 msgid "Unable to initiate confirmation request."
 msgstr "Không thể bắt đầu yêu cầu xác nhận."
 
-#: wp-admin/includes/ajax-actions.php:4032
-#: wp-admin/includes/ajax-actions.php:4213
-#: wp-admin/includes/ajax-actions.php:4227
+#: wp-admin/includes/ajax-actions.php:4036
+#: wp-admin/includes/ajax-actions.php:4217
+#: wp-admin/includes/ajax-actions.php:4231
 msgid "Invalid request ID."
 msgstr "ID yêu cầu không hợp lệ."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4377
+#: wp-admin/includes/ajax-actions.php:4381
 msgid "Expected done flag in response array from %1$s eraser (index %2$d)."
 msgstr "Đánh dấu hoàn tất từ mảng trả về từ %1$s bộ xóa (chỉ số %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4366
+#: wp-admin/includes/ajax-actions.php:4370
 msgid "Expected messages key to reference an array in response array from %1$s eraser (index %2$d)."
 msgstr "Expected messages key to reference an array in response array from %1$s eraser (index %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4355
+#: wp-admin/includes/ajax-actions.php:4359
 msgid "Expected messages key in response array from %1$s eraser (index %2$d)."
 msgstr "Expected messages key in response array from %1$s eraser (index %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4344
+#: wp-admin/includes/ajax-actions.php:4348
 msgid "Expected items_retained key in response array from %1$s eraser (index %2$d)."
 msgstr "Expected items_retained key in response array from %1$s eraser (index %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4333
+#: wp-admin/includes/ajax-actions.php:4337
 msgid "Expected items_removed key in response array from %1$s eraser (index %2$d)."
 msgstr "Expected items_removed key in response array from %1$s eraser (index %2$d)."
 
 #. translators: 1: eraser friendly name, 2: array index
-#: wp-admin/includes/ajax-actions.php:4322
+#: wp-admin/includes/ajax-actions.php:4326
 msgid "Did not receive array from %1$s eraser (index %2$d)."
 msgstr "Did not receive array from %1$s eraser (index %2$d)."
 
 #. translators: %d: array index
-#: wp-admin/includes/ajax-actions.php:4306
+#: wp-admin/includes/ajax-actions.php:4310
 msgid "Eraser array at index %d does not include a friendly name."
 msgstr "Eraser array at index %d does not include a friendly name."
 
 #. translators: %d: array index
-#: wp-admin/includes/ajax-actions.php:4301
+#: wp-admin/includes/ajax-actions.php:4305
 msgid "Eraser callback at index %d is not a valid callback."
 msgstr "Eraser callback at index %d is not a valid callback."
 
 #. translators: %d: array index
-#: wp-admin/includes/ajax-actions.php:4296
+#: wp-admin/includes/ajax-actions.php:4300
 msgid "Eraser array at index %d does not include a callback."
 msgstr "Eraser array at index %d does not include a callback."
 
 #. translators: %d: array index
-#: wp-admin/includes/ajax-actions.php:4291
+#: wp-admin/includes/ajax-actions.php:4295
 msgid "Expected an array describing the eraser at index %d."
 msgstr "Expected an array describing the eraser at index %d."
 
-#: wp-admin/includes/ajax-actions.php:4101
-#: wp-admin/includes/ajax-actions.php:4282
+#: wp-admin/includes/ajax-actions.php:4105
+#: wp-admin/includes/ajax-actions.php:4286
 msgid "Page index cannot be less than one."
 msgstr "Chỉ mục trang không thể nhỏ hơn một."
 
-#: wp-admin/includes/ajax-actions.php:4274
+#: wp-admin/includes/ajax-actions.php:4278
 msgid "Eraser index cannot be less than one."
 msgstr "Chỉ mục xóa không thể nhỏ hơn một."
 
-#: wp-admin/includes/ajax-actions.php:4233
+#: wp-admin/includes/ajax-actions.php:4237
 msgid "Invalid email address in request."
 msgstr "Địa chỉ email yêu cầu không hợp lệ."
 
-#: wp-admin/includes/plugin-install.php:595
+#: wp-admin/includes/plugin-install.php:596
 msgid "Requires PHP Version:"
 msgstr "Yêu cầu phiên bản PHP:"
 
@@ -1299,7 +1303,7 @@ msgstr "https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory"
 msgid "Enter the address here if you <a href=\"%s\">want your site home page to be different from your WordPress installation directory</a>."
 msgstr "Nhập địa chỉ nếu bạn <a href=\"%s\">muốn địa chỉ website khác thư mục cài đặt WordPress</a>."
 
-#: wp-admin/about.php:367
+#: wp-admin/about.php:399
 msgid "Developer Happiness"
 msgstr "Cải tiến cho nhà phát triển"
 
@@ -1504,12 +1508,12 @@ msgid "Theme Installation"
 msgstr "Cài đặt giao diện"
 
 #. translators: %s: user's display name
-#: wp-admin/includes/post.php:1607
+#: wp-admin/includes/post.php:1634
 msgid "%s is already editing this post."
 msgstr "%s đang sửa bài viết này."
 
 #. translators: %s: user's display name
-#: wp-admin/includes/post.php:1604
+#: wp-admin/includes/post.php:1631
 msgid "%s is already editing this post. Do you want to take over?"
 msgstr "%s đang sửa bài viết này. Bạn muốn thay thế?"
 
@@ -1517,7 +1521,7 @@ msgstr "%s đang sửa bài viết này. Bạn muốn thay thế?"
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\">Documentation on Site Management</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\">Tài liệu về quản lý Multi-site</a>"
 
-#: wp-admin/includes/plugin-install.php:522 wp-admin/update.php:123
+#: wp-admin/includes/plugin-install.php:523 wp-admin/update.php:123
 msgid "Plugin Installation"
 msgstr "Cài đặt plugin"
 
@@ -1525,7 +1529,7 @@ msgstr "Cài đặt plugin"
 msgid "Custom installation script."
 msgstr "Mã cài đặt riêng."
 
-#: wp-admin/includes/plugin-install.php:602
+#: wp-admin/includes/plugin-install.php:603
 msgid "Active Installations:"
 msgstr "Lượt kích hoạt:"
 
@@ -1771,7 +1775,7 @@ msgid "&#8220;%s&#8221; is locked"
 msgstr "&#8220;%s&#8221; đã bị khóa"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:608
-#: wp-admin/includes/plugin-install.php:606
+#: wp-admin/includes/plugin-install.php:607
 msgctxt "Active plugin installations"
 msgid "Less Than 10"
 msgstr "Ít hơn 10"
@@ -1781,7 +1785,7 @@ msgid "Sorry, you are not allowed to attach files to this post."
 msgstr "Xin lỗi, bạn không được quyền đính kèm tập tin vào bài viết này."
 
 #: wp-admin/includes/plugin-install.php:239
-#: wp-admin/includes/plugin-install.php:612 wp-admin/freedoms.php:84
+#: wp-admin/includes/plugin-install.php:613 wp-admin/freedoms.php:84
 #: wp-admin/plugins.php:418 wp-admin/plugin-install.php:82
 msgid "https://wordpress.org/plugins/"
 msgstr "https://vi.wordpress.org/plugins/"
@@ -1940,7 +1944,7 @@ msgstr "Xác nhận sử dụng mật khẩu yếu."
 msgid "Sorry, you are not allowed to edit this changeset."
 msgstr "Xin lỗi, bạn không được phép sử người dùng này."
 
-#: wp-admin/includes/ajax-actions.php:3497 wp-admin/update.php:172
+#: wp-admin/includes/ajax-actions.php:3501 wp-admin/update.php:172
 #: wp-admin/update.php:192
 msgid "Sorry, you are not allowed to update themes for this site."
 msgstr "Xin lỗi, bạn không được cấp phép để cập nhật theme cho website này."
@@ -2169,55 +2173,55 @@ msgstr "Xin lỗi, bạn không được phép sửa các liên kết của webs
 msgid "Sorry, you are not allowed to manage privacy on this site."
 msgstr "Xin lỗi, bạn không được cấp quyền quản lý phần chính sách bảo mật trên site này."
 
-#: wp-admin/includes/ajax-actions.php:3933
-#: wp-admin/includes/ajax-actions.php:3976 wp-admin/plugins.php:13
+#: wp-admin/includes/ajax-actions.php:3937
+#: wp-admin/includes/ajax-actions.php:3980 wp-admin/plugins.php:13
 msgid "Sorry, you are not allowed to manage plugins for this site."
 msgstr "Xin lỗi, bạn không có quyền quản lý các gói mở rộng cho website này."
 
-#: wp-admin/includes/ajax-actions.php:3903
+#: wp-admin/includes/ajax-actions.php:3907
 msgid "Plugin could not be deleted."
 msgstr "Gói mở rộng đã không thể xóa."
 
-#: wp-admin/includes/ajax-actions.php:3865 wp-admin/plugins.php:249
+#: wp-admin/includes/ajax-actions.php:3869 wp-admin/plugins.php:249
 msgid "Sorry, you are not allowed to delete plugins for this site."
 msgstr "Xin lỗi, bạn không có quyền xóa các gói mở rộng cho website này."
 
-#: wp-admin/includes/ajax-actions.php:3762 wp-admin/update.php:24
+#: wp-admin/includes/ajax-actions.php:3766 wp-admin/update.php:24
 #: wp-admin/update.php:50 wp-admin/update.php:71
 msgid "Sorry, you are not allowed to update plugins for this site."
 msgstr "Xin lỗi, bạn không có quyền cập nhật các gói mở rộng cho website này."
 
-#: wp-admin/includes/ajax-actions.php:3657 wp-admin/update.php:96
+#: wp-admin/includes/ajax-actions.php:3661 wp-admin/update.php:96
 #: wp-admin/update.php:144 wp-admin/plugin-install.php:18
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "Xin lỗi, bạn không có quyền cài đặt các gói mở rộng vào website này."
 
-#: wp-admin/includes/ajax-actions.php:3647
-#: wp-admin/includes/ajax-actions.php:3748
-#: wp-admin/includes/ajax-actions.php:3853
+#: wp-admin/includes/ajax-actions.php:3651
+#: wp-admin/includes/ajax-actions.php:3752
+#: wp-admin/includes/ajax-actions.php:3857
 msgid "No plugin specified."
 msgstr "Không có gói mở rộng thiết lập."
 
-#: wp-admin/includes/ajax-actions.php:3624
+#: wp-admin/includes/ajax-actions.php:3628
 msgid "Theme could not be deleted."
 msgstr "Giao diện đã không thể xóa."
 
-#: wp-admin/includes/ajax-actions.php:3588
+#: wp-admin/includes/ajax-actions.php:3592
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "Xin lỗi, bạn không được phép xóa các giao diện trên website này."
 
-#: wp-admin/includes/ajax-actions.php:3557
+#: wp-admin/includes/ajax-actions.php:3561
 msgid "Update failed."
 msgstr "Cập nhật thất bại."
 
-#: wp-admin/includes/ajax-actions.php:3387 wp-admin/update.php:218
+#: wp-admin/includes/ajax-actions.php:3391 wp-admin/update.php:218
 #: wp-admin/update.php:247 wp-admin/theme-install.php:16
 msgid "Sorry, you are not allowed to install themes on this site."
 msgstr "Xin lỗi, bạn không được phép cài đặt các giao diện trên website này."
 
-#: wp-admin/includes/ajax-actions.php:3375
-#: wp-admin/includes/ajax-actions.php:3484
-#: wp-admin/includes/ajax-actions.php:3577
+#: wp-admin/includes/ajax-actions.php:3379
+#: wp-admin/includes/ajax-actions.php:3488
+#: wp-admin/includes/ajax-actions.php:3581
 msgid "No theme specified."
 msgstr "Không có giao diện được thiết lập."
 
@@ -2446,22 +2450,22 @@ msgstr "Tập tin nén giao diện (zip)"
 msgid "Attach to existing content"
 msgstr "Đính kèm vào nội dung có sẵn"
 
-#: wp-admin/includes/post.php:1430
+#: wp-admin/includes/post.php:1457
 msgid "Click the image to edit or update"
 msgstr "Nhấn vào ảnh để sửa hoặc cập nhật"
 
 #. translators: 1: number of stars (used to determine singular/plural), 2:
 #. number of reviews
-#: wp-admin/includes/plugin-install.php:633
+#: wp-admin/includes/plugin-install.php:634
 msgid "Reviews with %1$d star: %2$s. Opens in a new window."
 msgid_plural "Reviews with %1$d stars: %2$s. Opens in a new window."
 msgstr[0] "Đánh giá với %1$d sao: %2$s. Mở trong một cửa sổ mới."
 
-#: wp-admin/includes/plugin-install.php:627
+#: wp-admin/includes/plugin-install.php:628
 msgid "Read all reviews on WordPress.org or write your own!"
 msgstr "Đọc tất cả đánh giá trên WordPress.org hoặc viết đánh giá riêng của bạn!"
 
-#: wp-admin/includes/plugin-install.php:626
+#: wp-admin/includes/plugin-install.php:627
 msgid "Reviews"
 msgstr "Đánh giá"
 
@@ -2714,7 +2718,7 @@ msgid "Welcome to %s. This is your first post. Edit or delete it, then start blo
 msgstr "Chào mừng bạn đến %s. Đây là bài viết đầu tiên của bạn. Chỉnh sửa hoặc xóa nó, sau đó bắt đầu viết blog!"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:558
+#: wp-admin/about.php:590
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Phiên bản %s</strong> đã giải quyết vấn đề bảo mật."
 
@@ -2731,15 +2735,15 @@ msgstr "Bạn có thể thay đổi hình ảnh hồ sơ tại <a href=\"%s\">Gr
 msgid "Profile Picture"
 msgstr "Ảnh đại diện"
 
-#: wp-admin/about.php:555
+#: wp-admin/about.php:64 wp-admin/about.php:587
 msgid "Maintenance and Security Releases"
 msgstr "Các phiên bản bảo trì và bảo mật"
 
-#: wp-admin/about.php:552
+#: wp-admin/about.php:584
 msgid "Security Releases"
 msgstr "Các phiên bản bảo mật"
 
-#: wp-admin/about.php:549
+#: wp-admin/about.php:581
 msgid "Maintenance Releases"
 msgstr "Các phiên bản bảo trì"
 
@@ -3001,11 +3005,11 @@ msgstr "Nhận phiên bản %s"
 msgid "Toggle panel: %s"
 msgstr "Chuyển đổi bảng điều khiển: %s"
 
-#: wp-admin/includes/post.php:1645
+#: wp-admin/includes/post.php:1672
 msgid "Saving revision&hellip;"
 msgstr "Đang lưu&hellip;"
 
-#: wp-admin/includes/post.php:1356
+#: wp-admin/includes/post.php:1383
 msgid "Edit permalink"
 msgstr "Chỉnh sửa permalink"
 
@@ -3096,36 +3100,36 @@ msgstr "Không có quy tắc nào"
 msgid "An error occurred while updating %1$s: %2$s"
 msgstr "Có lỗi xảy ra khi cập nhật %1$s: %2$s"
 
-#: wp-admin/includes/class-wp-screen.php:1242
+#: wp-admin/includes/class-wp-screen.php:1244
 msgid "View Mode"
 msgstr "Chế độ xem"
 
-#: wp-admin/includes/class-wp-screen.php:1193
+#: wp-admin/includes/class-wp-screen.php:1195
 msgid "Pagination"
 msgstr "Phân trang"
 
-#: wp-admin/includes/class-wp-screen.php:1133
+#: wp-admin/includes/class-wp-screen.php:1135
 msgid "%s column"
 msgid_plural "%s columns"
 msgstr[0] "%s cột"
 
-#: wp-admin/includes/class-wp-screen.php:1037
+#: wp-admin/includes/class-wp-screen.php:1039
 msgid "Boxes"
 msgstr "Các hộp"
 
-#: wp-admin/includes/class-wp-screen.php:928
+#: wp-admin/includes/class-wp-screen.php:930
 msgid "Additional settings"
 msgstr "Tùy chọn bổ sung"
 
-#: wp-admin/includes/class-wp-screen.php:710
+#: wp-admin/includes/class-wp-screen.php:712
 msgid "Items list"
 msgstr "Danh sách các mục"
 
-#: wp-admin/includes/class-wp-screen.php:709
+#: wp-admin/includes/class-wp-screen.php:711
 msgid "Items list navigation"
 msgstr "Điều hướng danh sách các mục"
 
-#: wp-admin/includes/class-wp-screen.php:708
+#: wp-admin/includes/class-wp-screen.php:710
 msgid "Filter items list"
 msgstr "Lọc danh sách các mục"
 
@@ -3362,7 +3366,7 @@ msgid "%s comment"
 msgid_plural "%s comments"
 msgstr[0] "%s Bình luận"
 
-#: wp-admin/includes/ajax-actions.php:3235
+#: wp-admin/includes/ajax-actions.php:3239
 msgid "Image could not be processed."
 msgstr "Hình ảnh không xử lý được"
 
@@ -3742,7 +3746,7 @@ msgid "Plugins updated successfully."
 msgstr "Gói mở rộng được kích hoạt thành công."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:606
-#: wp-admin/includes/plugin-install.php:604
+#: wp-admin/includes/plugin-install.php:605
 msgctxt "Active plugin installations"
 msgid "1+ Million"
 msgstr "Hơn 1 triệu"
@@ -3798,7 +3802,7 @@ msgstr "Xóa các trình cắm"
 msgid "<span>Active:</span> %s"
 msgstr "<span>Kích hoạt:</span> %s"
 
-#: wp-admin/includes/class-wp-screen.php:1153
+#: wp-admin/includes/class-wp-screen.php:1155
 msgid "Number of items per page:"
 msgstr "Số đối tượng trên một trang."
 
@@ -3962,12 +3966,12 @@ msgstr "Kích thước tính theo megabytes"
 msgid "M j, Y @ H:i"
 msgstr "M j, Y @ H:i"
 
-#: wp-admin/includes/ajax-actions.php:3427
-#: wp-admin/includes/ajax-actions.php:3546
-#: wp-admin/includes/ajax-actions.php:3606
-#: wp-admin/includes/ajax-actions.php:3701
-#: wp-admin/includes/ajax-actions.php:3822
-#: wp-admin/includes/ajax-actions.php:3887
+#: wp-admin/includes/ajax-actions.php:3431
+#: wp-admin/includes/ajax-actions.php:3550
+#: wp-admin/includes/ajax-actions.php:3610
+#: wp-admin/includes/ajax-actions.php:3705
+#: wp-admin/includes/ajax-actions.php:3826
+#: wp-admin/includes/ajax-actions.php:3891
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr "Không thể kết nối tới file hệ thống, Hãy xác nhận lại các thông tin đăng nhập."
 
@@ -4056,7 +4060,7 @@ msgstr "Bạn có thể thiết lập ngôn ngữ, và các tập tin dịch s�
 msgid "You cannot delete a theme while it has an active child theme."
 msgstr "Bạn không thể xóa giao diện mà có giao diện khác sử dụng nó làm giao diện gốc (child theme)."
 
-#: wp-admin/includes/class-wp-screen.php:930
+#: wp-admin/includes/class-wp-screen.php:932
 msgid "Enable full-height editor and distraction-free functionality."
 msgstr "Bật trình soạn thảo văn bản toàn chiều cao và chức năng tránh mất tập trung."
 
@@ -4081,20 +4085,20 @@ msgstr "<strong>Trình biên tập bài viết</strong> - Nhập nội dung cho 
 msgid "You can insert media files by clicking the icons above the post editor and following the directions. You can align or edit images using the inline formatting toolbar available in Visual mode."
 msgstr "Bạn có thể thêm các tập tin đa phương tiện bằng việc nhấp vào biểu tượng bên trên trình soạn thảo bài viết và đi theo chỉ dẫn. Bạn có thể căn hoặc chỉnh sửa hình ảnh sử dụng thanh công cụ định dạng trong Giao diện trực quan (Visual mode)."
 
-#: wp-admin/includes/ajax-actions.php:3093
+#: wp-admin/includes/ajax-actions.php:3097
 msgid "This preview is unavailable in the editor."
 msgstr "Xem trước không khả dụng trong trình soạn thảo."
 
-#: wp-admin/includes/ajax-actions.php:3199
+#: wp-admin/includes/ajax-actions.php:3203
 msgid "Could not log out user sessions. Please try again."
 msgstr "Không thể đăng xuất khỏi các phiên đăng nhập. Vui lòng thử lại."
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:3211
+#: wp-admin/includes/ajax-actions.php:3215
 msgid "%s has been logged out."
 msgstr "%s đã thoát ra."
 
-#: wp-admin/includes/ajax-actions.php:3207
+#: wp-admin/includes/ajax-actions.php:3211
 msgid "You are now logged out everywhere else."
 msgstr "Bạn đã thoát khỏi tất cả phiên đăng nhập."
 
@@ -4132,7 +4136,7 @@ msgctxt "theme editor"
 msgid "Editor"
 msgstr "Sửa"
 
-#: wp-admin/includes/class-wp-screen.php:1056
+#: wp-admin/includes/class-wp-screen.php:1058
 msgctxt "Welcome panel"
 msgid "Welcome"
 msgstr "Xin chào"
@@ -4206,7 +4210,7 @@ msgstr "<strong>Tương thích</strong> với phiên bản WordPress của bạn
 msgid "<strong>Incompatible</strong> with your version of WordPress"
 msgstr "<strong>Không tương thích</strong> với phiên bản WordPress của bạn."
 
-#: wp-admin/includes/plugin-install.php:640
+#: wp-admin/includes/plugin-install.php:641
 msgid "%d star"
 msgid_plural "%d stars"
 msgstr[0] "%d sao"
@@ -4242,16 +4246,16 @@ msgctxt "Button label for a theme"
 msgid "Previous"
 msgstr "Trước"
 
-#: wp-admin/includes/plugin-install.php:650
+#: wp-admin/includes/plugin-install.php:651
 msgid "Contributors"
 msgstr "Người đóng góp"
 
-#: wp-admin/includes/plugin-install.php:616
-#: wp-admin/includes/plugin-install.php:670
+#: wp-admin/includes/plugin-install.php:617
+#: wp-admin/includes/plugin-install.php:671
 msgid "Donate to this plugin &#187;"
 msgstr "Quyên góp chho plugin này"
 
-#: wp-admin/includes/plugin-install.php:499
+#: wp-admin/includes/plugin-install.php:500
 msgctxt "Plugin installer section title"
 msgid "Reviews"
 msgstr "Đánh giá"
@@ -4309,7 +4313,7 @@ msgctxt "Plugin Installer"
 msgid "Beta Testing"
 msgstr "Kiểm thử Beta"
 
-#: wp-admin/includes/ajax-actions.php:3064
+#: wp-admin/includes/ajax-actions.php:3068
 msgid "%s failed to embed."
 msgstr "%s không thể nhúng."
 
@@ -4691,7 +4695,7 @@ msgstr "<strong>Hoạt Động</strong> - Hiển thị các bài viết sắp đ
 msgid "<strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show."
 msgstr "<strong>Tùy Chọn Hiển Thị</strong> - Sử dụng thẻ Tùy Chọn Hiển Thị để lựa chọn các hộp thông tin được hiển thị ở Bảng Tổng Quan."
 
-#: wp-admin/post.php:72
+#: wp-admin/post.php:78
 msgid "Unable to submit this form, please refresh and try again."
 msgstr "Không thể lưu dữ liệu, xin hãy tải lại trang và thử lại"
 
@@ -5201,15 +5205,15 @@ msgstr "Để xem lại các bản thảo khác nhau, <strong>kéo nút trượt
 msgid "Loading&hellip;"
 msgstr "Đang tải&hellip;"
 
-#: wp-admin/post.php:255
+#: wp-admin/post.php:261
 msgid "This item has already been deleted."
 msgstr "Bài viết này đã bị xóa."
 
-#: wp-admin/post.php:237
+#: wp-admin/post.php:243
 msgid "The item you are trying to restore from the Trash no longer exists."
 msgstr "Bài viết bạn muốn khôi phục sau khi xóa không còn tồn tại."
 
-#: wp-admin/post.php:214
+#: wp-admin/post.php:220
 msgid "The item you are trying to move to the Trash no longer exists."
 msgstr "Bài viết bạn muốn xóa không còn tồn tại."
 
@@ -5355,7 +5359,7 @@ msgstr "Tại màn hình này bạn có thể:"
 msgid "This screen is used for managing your navigation menus."
 msgstr "Trang này để quản lý các menu điều hướng."
 
-#: wp-admin/includes/post.php:1646
+#: wp-admin/includes/post.php:1673
 msgid "Your latest changes were saved as a revision."
 msgstr "Những thay đổi mới nhất của bạn đã được lưu lại."
 
@@ -5446,7 +5450,7 @@ msgstr "Bản lưu dự phòng bạn đang xem trên trình duyệt của bài v
 msgid "Draft created on %1$s at %2$s"
 msgstr "Bản nháp được tạo ngày %1$s vào lúc %2$s"
 
-#: wp-admin/post.php:224
+#: wp-admin/post.php:230
 msgid "You cannot move this item to the Trash. %s is currently editing."
 msgstr "Bạn không thể chuyển mục này vào Thùng Rác. %s đang biên tập."
 
@@ -5574,7 +5578,7 @@ msgctxt "column name"
 msgid "Uploaded to"
 msgstr "Đã tải lên vào"
 
-#: wp-admin/includes/ajax-actions.php:2102 wp-admin/custom-background.php:451
+#: wp-admin/includes/ajax-actions.php:2106 wp-admin/custom-background.php:451
 #: wp-admin/custom-header.php:842
 msgid "The uploaded file is not a valid image. Please try again."
 msgstr "Tập tin được tải lên không phải tập tin ảnh hợp lệ. Hãy thử lại."
@@ -5772,11 +5776,11 @@ msgstr "Xin lỗi, bạn đã sử dụng hết dung lượng lưu trữ %s MB."
 msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
 msgstr "Xin lỗi, bạn đã dùng hết vùng lưu trữ được cấp. Hãy xóa vài tập tin để có thể tiếp tục tải lên."
 
-#: wp-admin/includes/class-wp-screen.php:800
+#: wp-admin/includes/class-wp-screen.php:802
 msgid "Contextual Help Tab"
 msgstr "Khung Trợ Giúp Ngữ Cảnh"
 
-#: wp-admin/includes/class-wp-screen.php:985
+#: wp-admin/includes/class-wp-screen.php:987
 msgid "Screen Options Tab"
 msgstr "Khung Tùy Biến Màn Hình"
 
@@ -6023,7 +6027,7 @@ msgstr "Không có bình luận"
 
 #: wp-admin/includes/class-wp-themes-list-table.php:230
 #: wp-admin/includes/class-wp-theme-install-list-table.php:419
-#: wp-admin/includes/plugin-install.php:573
+#: wp-admin/includes/plugin-install.php:574
 msgid "Version:"
 msgstr "Phiên bản"
 
@@ -6359,32 +6363,32 @@ msgstr "Để cho phép trang này tự động sửa chữa các vấn đề v�
 msgid "No comments awaiting moderation."
 msgstr "Không có bình luận nào cần kiểm duyệt."
 
-#: wp-admin/includes/plugin-install.php:497
+#: wp-admin/includes/plugin-install.php:498
 msgctxt "Plugin installer section title"
 msgid "Screenshots"
 msgstr "Ảnh màn hình"
 
-#: wp-admin/includes/plugin-install.php:494
+#: wp-admin/includes/plugin-install.php:495
 msgctxt "Plugin installer section title"
 msgid "Description"
 msgstr "Mô tả"
 
-#: wp-admin/includes/plugin-install.php:495
+#: wp-admin/includes/plugin-install.php:496
 msgctxt "Plugin installer section title"
 msgid "Installation"
 msgstr "Cài đặt"
 
-#: wp-admin/includes/plugin-install.php:496
+#: wp-admin/includes/plugin-install.php:497
 msgctxt "Plugin installer section title"
 msgid "FAQ"
 msgstr "Giải Đáp"
 
-#: wp-admin/includes/plugin-install.php:500
+#: wp-admin/includes/plugin-install.php:501
 msgctxt "Plugin installer section title"
 msgid "Other Notes"
 msgstr "Những Lưu Ý Khác"
 
-#: wp-admin/includes/plugin-install.php:498
+#: wp-admin/includes/plugin-install.php:499
 msgctxt "Plugin installer section title"
 msgid "Changelog"
 msgstr "Nhật ký thay đổi"
@@ -6393,7 +6397,7 @@ msgstr "Nhật ký thay đổi"
 msgid "You should update your web.config now."
 msgstr "Bạn nên cập nhật tập tin web.config ngay."
 
-#: wp-admin/includes/plugin-install.php:614
+#: wp-admin/includes/plugin-install.php:615
 msgid "Plugin Homepage &#187;"
 msgstr "Trang Chủ Của Gói Mở Rộng &#187;"
 
@@ -6477,26 +6481,26 @@ msgid "Show Toolbar when viewing site"
 msgstr "Hiển thị thanh công cụ khi xem trang"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:563
+#: wp-admin/about.php:69 wp-admin/about.php:595
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết %2$s lỗi."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:571
+#: wp-admin/about.php:603
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật và sửa %2$s lỗi."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:575
+#: wp-admin/about.php:80 wp-admin/about.php:90 wp-admin/about.php:607
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Để biết thêm thông tin, xem <a href=\"%s\">thông báo phát hành</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:567
+#: wp-admin/about.php:599
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một vấn đề về bảo mật và sửa %2$s lỗi."
@@ -6506,15 +6510,15 @@ msgid "Welcome to your WordPress Dashboard! This is the screen you will see when
 msgstr "Chào mừng đến với giao diện Quản trị của WordPress! Đây đơn giản là nơi bạn đăng nhập và truy cập vào các tính năng quản lý website của mình. Bạn có thể xem thêm thông tin trợ giúp bằng cách nhấp vào các mục Trợ giúp ở trên mỗi đầu trang."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:560
+#: wp-admin/about.php:86 wp-admin/about.php:592
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật."
 
-#: wp-admin/about.php:548
+#: wp-admin/about.php:580
 msgid "Maintenance Release"
 msgstr "Các bản Bảo Trì"
 
-#: wp-admin/about.php:551
+#: wp-admin/about.php:583
 msgid "Security Release"
 msgstr "Các bản Bảo Mật"
 
@@ -6522,7 +6526,7 @@ msgstr "Các bản Bảo Mật"
 msgid "What&#8217;s New"
 msgstr "Có gì mới"
 
-#: wp-admin/about.php:554
+#: wp-admin/about.php:586
 msgid "Maintenance and Security Release"
 msgstr "Các bản Bảo Mật và Bảo Trì"
 
@@ -6534,7 +6538,7 @@ msgstr "Màn hình này cho phép bạn định nghĩa cấu trúc liên kết t
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Chào mừng tới WordPress %1$s. <a href=\"%2$s\">Đọc tiếp</a>."
 
-#: wp-admin/about.php:441
+#: wp-admin/about.php:473
 msgid "Return to Updates"
 msgstr "Quay lại Nâng Cấp"
 
@@ -6806,11 +6810,11 @@ msgstr "Do đây là một bản cài đặt đa mạng, bạn có thể thêm t
 msgid "Welcome to WordPress %s"
 msgstr "Chào mừng tới %s của WordPress"
 
-#: wp-admin/about.php:441
+#: wp-admin/about.php:473
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Quay lại Bảng tin &rarr; Cập nhật"
 
-#: wp-admin/about.php:444
+#: wp-admin/about.php:476
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Đến Bảng tin &rarr; Trang chủ"
 
@@ -6953,7 +6957,7 @@ msgstr "LỖI: bạn đang trả lời một bình luận tại bài viết nhá
 
 #: wp-admin/options-reading.php:22 wp-admin/edit-tags.php:233
 #: wp-admin/link-manager.php:51 wp-admin/options-writing.php:20
-#: wp-admin/includes/ms.php:977 wp-admin/includes/class-wp-screen.php:785
+#: wp-admin/includes/ms.php:977 wp-admin/includes/class-wp-screen.php:787
 #: wp-admin/my-sites.php:40 wp-admin/options-general.php:39
 #: wp-admin/comment.php:43 wp-admin/theme-editor.php:25
 #: wp-admin/plugin-editor.php:118 wp-admin/nav-menus.php:529
@@ -7122,8 +7126,8 @@ msgstr "Bởi %s"
 #: wp-admin/credits.php:25
 #: wp-admin/includes/class-wp-plugins-list-table.php:767
 #: wp-admin/includes/update.php:193 wp-admin/includes/update.php:218
-#: wp-admin/includes/ajax-actions.php:3772
-#: wp-admin/includes/ajax-actions.php:3815 wp-admin/freedoms.php:27
+#: wp-admin/includes/ajax-actions.php:3776
+#: wp-admin/includes/ajax-actions.php:3819 wp-admin/freedoms.php:27
 #: wp-admin/about.php:54
 msgid "Version %s"
 msgstr "Phiên bản %s"
@@ -7423,7 +7427,7 @@ msgid "<strong>Random:</strong> Show a different image on each page."
 msgstr "<strong>Ngẫu nhiên:</strong> Hiển thị một hình ảnh khác trên mỗi trang."
 
 #: wp-admin/includes/theme.php:265 wp-admin/includes/theme.php:295
-#: wp-admin/includes/class-wp-screen.php:1127 wp-admin/index.php:61
+#: wp-admin/includes/class-wp-screen.php:1129 wp-admin/index.php:61
 msgid "Layout"
 msgstr "Sơ đồ trình bày"
 
@@ -7444,7 +7448,7 @@ msgstr "%1$s trên %2$s"
 msgid "%s Page Template"
 msgstr "%s Trang Mẫu"
 
-#: wp-admin/includes/ajax-actions.php:3874 wp-admin/plugins.php:467
+#: wp-admin/includes/ajax-actions.php:3878 wp-admin/plugins.php:467
 msgid "You cannot delete a plugin while it is active on the main site."
 msgstr "Bạn không thể xóa một gói mở rộng khi nó đang được kích hoạt trên trang mạng chính."
 
@@ -7579,8 +7583,8 @@ msgid "Theme update failed."
 msgstr "Giao diện cập nhật không thành công."
 
 #: wp-admin/includes/class-plugin-upgrader.php:54
-#: wp-admin/includes/ajax-actions.php:3806
-#: wp-admin/includes/ajax-actions.php:3833
+#: wp-admin/includes/ajax-actions.php:3810
+#: wp-admin/includes/ajax-actions.php:3837
 msgid "Plugin update failed."
 msgstr "Gặp lỗi khi cập nhật plugin."
 
@@ -8266,7 +8270,7 @@ msgstr "Trang web mới dùng WordPress"
 msgid "My Site"
 msgstr "Trang của tôi"
 
-#: wp-admin/includes/post.php:727
+#: wp-admin/includes/post.php:747
 msgid "Sorry, you are not allowed to create pages on this site."
 msgstr "Bạn không được phân quyền để tạo trang tĩnh trên trang mạng này."
 
@@ -8282,7 +8286,7 @@ msgstr "Thông báo về việc đã khóa trang mạng."
 msgid "Custom site deleted message."
 msgstr "Thông báo về việc đã xóa trang mạng."
 
-#: wp-admin/includes/post.php:729
+#: wp-admin/includes/post.php:749
 msgid "Sorry, you are not allowed to create posts or drafts on this site."
 msgstr "Bạn không được phân quyền để tạo bài viết hoặc bản nháp trên trang mạng này."
 
@@ -8366,12 +8370,12 @@ msgstr "Mật khẩu bạn đã chọn."
 msgid "Yes, take me to my profile page"
 msgstr "Xem trang hồ sơ cá nhân"
 
-#: wp-admin/post.php:266 wp-admin/post.php:269 wp-admin/upload.php:164
+#: wp-admin/post.php:272 wp-admin/post.php:275 wp-admin/upload.php:164
 #: wp-admin/edit.php:144 wp-admin/edit.php:147
 msgid "Error in deleting."
 msgstr "Gặp lỗi khi xóa."
 
-#: wp-admin/post.php:220 wp-admin/upload.php:137 wp-admin/edit.php:106
+#: wp-admin/post.php:226 wp-admin/upload.php:137 wp-admin/edit.php:106
 msgid "Sorry, you are not allowed to move this item to the Trash."
 msgstr "Bạn không có quyền bỏ vào thùng rác."
 
@@ -8387,15 +8391,15 @@ msgid "%s comment restored from the Trash"
 msgid_plural "%s comments restored from the Trash"
 msgstr[0] "Đã khôi phục %s bình luận từ Thùng rác"
 
-#: wp-admin/post.php:228 wp-admin/upload.php:140 wp-admin/edit.php:114
+#: wp-admin/post.php:234 wp-admin/upload.php:140 wp-admin/edit.php:114
 msgid "Error in moving to Trash."
 msgstr "Gặp lỗi khi bỏ vào thùng rác."
 
-#: wp-admin/post.php:243 wp-admin/upload.php:149 wp-admin/edit.php:125
+#: wp-admin/post.php:249 wp-admin/upload.php:149 wp-admin/edit.php:125
 msgid "Sorry, you are not allowed to restore this item from the Trash."
 msgstr "Bạn không có quyền lấy lại từ thùng rác."
 
-#: wp-admin/post.php:246 wp-admin/upload.php:152 wp-admin/edit.php:128
+#: wp-admin/post.php:252 wp-admin/upload.php:152 wp-admin/edit.php:128
 msgid "Error in restoring from Trash."
 msgstr "Gặp lỗi khi lấy lại từ thùng rác."
 
@@ -8605,7 +8609,7 @@ msgstr "Xem tất cả"
 msgid "Please enter a valid menu name."
 msgstr "Vui lòng nhập tên hợp lệ cho Menu."
 
-#: wp-admin/about.php:444
+#: wp-admin/about.php:476
 msgid "Go to Dashboard"
 msgstr "Xem bảng tin"
 
@@ -8723,7 +8727,7 @@ msgstr "Widget sẵn có"
 msgid "Error in displaying the widget settings form."
 msgstr "Lỗi hiển thị mẫu cài đặt cho widget."
 
-#: wp-admin/includes/misc.php:1084 wp-admin/includes/post.php:1805
+#: wp-admin/includes/misc.php:1084 wp-admin/includes/post.php:1833
 #: wp-admin/widgets.php:342
 msgid "Error while saving."
 msgstr "Lỗi khi lưu các thay đổi."
@@ -9035,17 +9039,18 @@ msgstr "So sánh các phiên bản của &#8220;%1$s&#8221;"
 msgid "View post"
 msgstr "Xem bài viết"
 
-#: wp-admin/post.php:120
+#: wp-admin/post.php:126
 msgid "You can&#8217;t edit this item because it is in the Trash. Please restore it and try again."
 msgstr "Bạn không thể chỉnh sửa tập tin đính kèm vì nó nằm trong thùng rác. Hãy lấy lại tập tin này từ thùng rác và thử lại."
 
-#: wp-admin/edit-tags.php:156 wp-admin/includes/post.php:1811
-#: wp-admin/async-upload.php:47 wp-admin/post.php:117 wp-admin/term.php:38
-#: wp-admin/media-upload.php:46
+#: wp-admin/edit-tags.php:156 wp-admin/includes/post.php:1839
+#: wp-admin/includes/class-wp-screen.php:282 wp-admin/async-upload.php:47
+#: wp-admin/post.php:20 wp-admin/post.php:44 wp-admin/post.php:123
+#: wp-admin/term.php:38 wp-admin/media-upload.php:46
 msgid "Sorry, you are not allowed to edit this item."
 msgstr "Bạn không có quyền chỉnh sửa."
 
-#: wp-admin/edit-tags.php:143 wp-admin/edit-tags.php:163 wp-admin/post.php:107
+#: wp-admin/edit-tags.php:143 wp-admin/edit-tags.php:163 wp-admin/post.php:113
 #: wp-admin/term.php:26
 msgid "You attempted to edit an item that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Bạn đang muốn sửa một thứ không tồn tại. Có thể nó đã bị xóa?"
@@ -9169,7 +9174,7 @@ msgstr "Tập tin plugin"
 msgid "Select plugin to edit:"
 msgstr "Chọn plugin để chỉnh sửa:"
 
-#: wp-admin/includes/ajax-actions.php:4014 wp-admin/theme-editor.php:180
+#: wp-admin/includes/ajax-actions.php:4018 wp-admin/theme-editor.php:180
 #: wp-admin/plugin-editor.php:177
 msgid "File edited successfully."
 msgstr "Đã sửa tập tin thành công."
@@ -9594,7 +9599,7 @@ msgstr "Không tìm được thành viên nào!"
 msgid "Update Themes"
 msgstr "Cập nhật giao diện"
 
-#: wp-admin/about.php:278
+#: wp-admin/about.php:310
 msgid "More"
 msgstr "Thêm"
 
@@ -9928,15 +9933,15 @@ msgstr "Một cột"
 msgid "Feature Filter"
 msgstr "Bộ lọc theo đặc điểm"
 
-#: wp-admin/includes/class-wp-screen.php:899
+#: wp-admin/includes/class-wp-screen.php:901
 msgid "Screen Options"
 msgstr "Tùy chọn hiển thị"
 
-#: wp-admin/includes/class-wp-screen.php:925
+#: wp-admin/includes/class-wp-screen.php:927
 msgid "Disable accessibility mode"
 msgstr "Tắt chế độ truy cập nhẹ"
 
-#: wp-admin/includes/class-wp-screen.php:925
+#: wp-admin/includes/class-wp-screen.php:927
 msgid "Enable accessibility mode"
 msgstr "Bật đánh chế độ truy cập nhẹ"
 
@@ -10145,7 +10150,7 @@ msgstr "Một trang web mới của %s"
 msgid "Just another WordPress site"
 msgstr "Một trang web mới sử dụng WordPress"
 
-#: wp-admin/includes/post.php:608
+#: wp-admin/includes/post.php:628
 msgid "Auto Draft"
 msgstr "Lưu bản nháp tự động"
 
@@ -10182,55 +10187,55 @@ msgstr "Một trong các plugin không hợp lệ."
 msgid "The plugin generated unexpected output."
 msgstr "Gói mở rộng trả về dữ liệu không đúng."
 
-#: wp-admin/includes/plugin-install.php:681
+#: wp-admin/includes/plugin-install.php:682
 msgid "<strong>Warning:</strong> This plugin has <strong>not been marked as compatible</strong> with your version of WordPress."
 msgstr "<strong>Cảnh báo:</strong> Plugin này không được đánh dấu <strong>tương thích</strong> với phiên bản WordPress của bạn."
 
-#: wp-admin/includes/plugin-install.php:679
+#: wp-admin/includes/plugin-install.php:680
 msgid "<strong>Warning:</strong> This plugin has <strong>not been tested</strong> with your current version of WordPress."
 msgstr "<strong>Cảnh báo:</strong> Plugin này <strong>chưa được thử</strong> với phiên bản WordPress của bạn."
 
-#: wp-admin/includes/plugin-install.php:620
+#: wp-admin/includes/plugin-install.php:621
 msgid "Average Rating"
 msgstr "Đánh giá trung bình"
 
-#: wp-admin/includes/plugin-install.php:612
+#: wp-admin/includes/plugin-install.php:613
 msgid "WordPress.org Plugin Page &#187;"
 msgstr "Trang Plugin tại WordPress.org &#187;"
 
-#: wp-admin/includes/plugin-install.php:592
+#: wp-admin/includes/plugin-install.php:593
 msgid "Compatible up to:"
 msgstr "Tương thích tới:"
 
 #. translators: %s: version number
-#: wp-admin/includes/plugin-install.php:588
-#: wp-admin/includes/plugin-install.php:598
+#: wp-admin/includes/plugin-install.php:589
+#: wp-admin/includes/plugin-install.php:599
 msgid "%s or higher"
 msgstr "%s hoặc hơn"
 
-#: wp-admin/includes/plugin-install.php:585
+#: wp-admin/includes/plugin-install.php:586
 msgid "Requires WordPress Version:"
 msgstr "Cần có WordPress phiên bản:"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:601
-#: wp-admin/includes/plugin-install.php:577
+#: wp-admin/includes/plugin-install.php:578
 msgid "Last Updated:"
 msgstr "Cập nhật lần cuối:"
 
-#: wp-admin/includes/plugin-install.php:718
+#: wp-admin/includes/plugin-install.php:719
 msgid "Latest Version Installed"
 msgstr "Phiên bản mới nhất đã được cài đặt"
 
 #. translators: %s: Plugin version
-#: wp-admin/includes/plugin-install.php:715
+#: wp-admin/includes/plugin-install.php:716
 msgid "Newer Version (%s) Installed"
 msgstr "Phiên bản mới (%s) đã được cài đặt"
 
-#: wp-admin/includes/plugin-install.php:710
+#: wp-admin/includes/plugin-install.php:711
 msgid "Install Update Now"
 msgstr "Cập nhật"
 
-#: wp-admin/includes/plugin-install.php:622
+#: wp-admin/includes/plugin-install.php:623
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
 msgstr[0] "(dựa trên %s đánh giá)"
@@ -11366,7 +11371,7 @@ msgstr "Khi bạn nhấn nút dưới đây, WordPress sẽ tạo cho bạn mộ
 msgid "Export"
 msgstr "Xuất ra"
 
-#: wp-admin/includes/class-wp-screen.php:1249
+#: wp-admin/includes/class-wp-screen.php:1251
 #: wp-admin/includes/class-wp-list-table.php:152
 msgid "Excerpt View"
 msgstr "Xem tóm tắt"
@@ -11393,7 +11398,7 @@ msgid "%s post updated."
 msgid_plural "%s posts updated."
 msgstr[0] "%s bài viết được cập nhật."
 
-#: wp-admin/edit-tags.php:100 wp-admin/post.php:261 wp-admin/themes.php:43
+#: wp-admin/edit-tags.php:100 wp-admin/post.php:267 wp-admin/themes.php:43
 #: wp-admin/upload.php:161 wp-admin/edit.php:140
 msgid "Sorry, you are not allowed to delete this item."
 msgstr "Bạn không được phép xóa cái này."
@@ -11479,13 +11484,13 @@ msgid "Update Comment"
 msgstr "Cập nhật phản hồi"
 
 #. translators: 1: Post edited date, 2: Post edited time
-#: wp-admin/includes/ajax-actions.php:2340 wp-admin/edit-form-advanced.php:523
+#: wp-admin/includes/ajax-actions.php:2344 wp-admin/edit-form-advanced.php:523
 msgid "Last edited on %1$s at %2$s"
 msgstr "Chỉnh sửa lần cuối ngày %1$s lúc %2$s"
 
 #. translators: 1: Name of most recent post author, 2: Post edited date, 3:
 #. Post edited time
-#: wp-admin/includes/ajax-actions.php:2338 wp-admin/edit-form-advanced.php:520
+#: wp-admin/includes/ajax-actions.php:2342 wp-admin/edit-form-advanced.php:520
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "Chỉnh sửa lần cuối bởi %1$s ngày %2$s lúc %3$s"
 
